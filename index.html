@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar Farooq Mirza | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="portfolio-title">My Portfolio</h1>
+        <button class="hamburger" aria-label="Menu">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="hero">
+        <div class="content">
+            <img src="./assets/me2.jpg" alt="Your Photo" class="profile-photo">
+            <h1>Hi, I'm <span class="highlight">Umar Farooq Mirza</span></h1>
+            <h2 class="typing-effect">Python Developer | Data Analyst</h2>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I am Umar Farooq Mirza from Pulwama, Kashmir. I have completed my B.Tech in Computer Science. I'm proficient in multiple programming languages and technologies including:</p>
+
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Power BI</li>
+            </ul>
+            
+            <p>What sets me apart is my ability as a quick learner, which helps me adapt to new technologies and frameworks rapidly. I'm dedicated to continuous learning and growth in the field of software development.</p>
+            
+            <p>My technical skills combined with my problem-solving abilities allow me to create efficient and innovative solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>DBMS</li>
+            <li>Data Analysis</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Power BI</li>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>Agile Methodologies</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Problem Solver</li>
+            <li>Quick Learner</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" data-link="https://github.com/UmarFarooqMirza/HRP">
+            <h3>House Rent Prediction</h3>
+
+             <p>This Streamlit-based application predicts house rent using a <b>deep learning model</b>. It loads and processes a dataset containing house rental information, encoding categorical variables such as <b>Area Type</b>, <b>City</b>, <b>Furnishing Status</b>, and <b>Tenant Preferences</b>. The data is then split into training and testing sets. 
+
+                A <b>neural network</b> is built using TensorFlow's Keras, consisting of multiple dense layers with ReLU activation. The model is compiled with the <b>Adam optimizer</b> and trained using mean squared error loss. After training, users can input details such as <b>BHK count</b>, <b>size</b>, <b>area type</b>, <b>city</b>, <b>furnishing status</b>, <b>tenant type</b>, and <b>number of bathrooms</b> through a sidebar.
+                
+                On clicking the "Predict Rent" button, the model predicts the rental price and displays a <b>confidence interval</b> using the mean absolute error. The app also provides a <b>visualization of rental trends</b> and a summary of model performance metrics. This tool offers a user-friendly interface for predicting house rents based on key parameters.</p>
+                
+             
+        </div>
+        <div class="project" data-link="https://github.com/UmarFarooqMirza/Flood-Prediction">
+            <h3>Flood Prediction App</h3>
+            <p>This project is a <b>Flood Prediction Web Application</b> developed using Python, Flask, and a machine learning model. It allows users to predict the likelihood of a flood based on real-time input values such as <b>rainfall</b> and <b>river level</b>.
+                
+                The application utilizes a pre-trained <b>machine learning model</b> stored as a <b>pickle file (PKL)</b> and loaded using the <b>Joblib</b> library. The web interface, built with <b>Flask</b>, provides an input form where users can enter relevant data. Upon submission, the model processes the input and predicts whether a flood is likely or not. The prediction result is then displayed on the same page.
+                
+                The app is designed with a simple <b>homepage</b> and a <b>/predict</b> route to handle user inputs and generate predictions. It runs in <b>debug mode</b> for easy testing and modification. This project is useful for authorities, researchers, and individuals who want a quick and efficient way to assess flood risk based on environmental factors</p>
+            </div>
+            <div class="project" data-link="https://github.com/UmarFarooqMirza/currency-converter">
+                <h3>Currency Converter </h3>
+                <p>This project is a <b>Graphical Password Generator</b> built using Python’s Tkinter library. It provides a simple and user-friendly interface for generating secure passwords of customizable length.
+                    
+                    The application allows users to enter their desired password length and generates a random password using a combination of <b>uppercase and lowercase letters, numbers, and special characters</b>. The generated password is displayed on the screen and can be easily copied to the clipboard with a single click.
+                    
+                    The GUI consists of an <b>entry field</b> for specifying password length, a <b>button</b> to generate the password, a <b>label</b> to display the generated password, and another <b>button</b> to copy it to the clipboard. The application runs in <b>fullscreen mode</b> by default but can be exited by pressing the "Escape" key.
+                    
+                    This project is useful for creating strong passwords, enhancing security, and simplifying the password-generation process with an intuitive interface.</p>
+                </div>
+                <div class="project" data-link="https://github.com/UmarFarooqMirza/tic-tac-toe-advance">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>This project is a <b>Tic-Tac-Toe Game</b> built using <b>React</b> and enhanced with <b>Framer Motion</b> for smooth animations. It provides an interactive and visually appealing experience while maintaining the core mechanics of the classic game.
+        
+                        The game is played on a <b>3x3 grid</b>, where two players take turns marking the squares as <b>'X'</b> or <b>'O'</b>. The state of the game is managed using React's <b>useState</b> hook. The game logic checks for a winner after each move by evaluating predefined winning combinations. If all squares are filled without a winner, the game ends in a draw.
+                        
+                        The UI includes a dynamic turn indicator, a responsive game board, and an animated winner announcement. The game features a <b>reset button</b> to start a new match instantly. <b>Framer Motion</b> is used to animate elements, creating smooth transitions and effects when the game state changes.
+                        
+                        This project demonstrates the power of React for state management and UI updates while incorporating animations for an engaging user experience.</p>
+                </div>
+                <div class="project" data-link="https://github.com/UmarFarooqMirza/candy_crush_clone">
+                    <h3>Candy Crush Clone</h3>
+                    <p>This Android project is a simplified version of the popular <b>Candy Crush</b> game developed using <b>Java</b> and the <b>Android SDK</b>. The app features an <b>8x8 grid</b> made with <b>GridLayout</b>, where each block is randomly filled with colorful candies. Players interact with the game by swiping the candies in four directions—left, right, up, and down—to match three candies of the same color in a row or column. The core game logic includes <b>drag-and-swap mechanics</b>, <b>candy matching</b>, <b>score tracking</b>, and <b>automatic refill of blank slots</b>. The game continuously checks for valid matches using a <b>Handler</b> and runs at a fixed interval to update the board state. If three candies match, they disappear, the score increases, and the candies above fall down to fill the gaps. The remaining empty slots are filled with new random candies to keep the game dynamic. This project demonstrates effective use of <b>event listeners</b>, <b>UI manipulation</b>, and <b>logic-based gameplay</b> in Android development, providing a solid foundation for building interactive and engaging mobile applications.</p>
+                </div>
+                <div class="project" data-link="https://github.com/UmarFarooqMirza/quiz">
+                    <h3>Dynamic Quiz Web</h3>
+                    <p>
+                        This project is a <b>dynamic quiz web application</b> developed using <b>Node.js</b> and <b>Express.js</b>, with <b>EJS</b> as the templating engine. It focuses on delivering a smooth user experience by allowing users to attempt quizzes and instantly view results. The app architecture follows the <b>MVC (Model-View-Controller)</b> pattern, where all quiz logic is managed inside the <b>quizController</b> module. 
+                        
+                        It serves static files from the <b>public</b> directory and utilizes <b>body-parser</b> middleware to handle form data. Users land on the <b>home page ('/')</b>, navigate to the <b>quiz page ('/quiz')</b> to attempt a test, and are then redirected to the <b>results page ('/result')</b> after submission. The core logic handles rendering quiz questions, processing answers, and evaluating results.
+                        
+                        This project helped strengthen my skills in <b>server-side routing, form handling, middleware integration</b>, and <b>template rendering</b>. It's a strong example of building a real-world application using Express.js and is easily scalable for features like database integration, user authentication, and score tracking. It plays a significant role in enhancing my <b>backend development</b> skills.
+                        </p>
+                        
+                </div>
+                <div class="project" data-link="https://github.com/UmarFarooqMirza/rock-paper-scissors">
+                    <h3>Rock,Paper,Scissor</h3>
+                    <p>
+                        This project is a <b>Rock-Paper-Scissors game</b> developed using <b>Python's Tkinter library</b> to provide an interactive graphical user interface. It allows the user to choose between <b>Rock, Paper, or Scissors</b> while the computer makes a random choice. The game logic then determines the winner and updates the score accordingly. The interface includes buttons for each choice, a display area for results, and a live score tracker using <b>IntVar and StringVar</b>.
+                        
+                        The core logic handles all possible game scenarios including <b>wins, losses, and draws</b>, and visually reflects outcomes on the screen. The application also manages the game state by displaying dynamic messages based on each round’s result. 
+                        
+                        This project helped me strengthen my understanding of <b>Python functions, conditional logic</b>, and most importantly, <b>GUI development using Tkinter</b>. It was an excellent exercise in combining <b>event-driven programming</b> with simple game mechanics, offering a fun and engaging way to practice Python. The project is lightweight, user-friendly, and demonstrates the foundational structure of desktop application development.
+                        </p>
+                        
+                        
+                </div>
+    </section>
+
+    <section id="internships">
+        <h2>Internships</h2>
+        <div class="internship">
+            <h3>Python Intern</h3>
+            <p>I worked at <b>Excellence Technology PVT LTD</b> from <b>July 2023 to August 2023</b>, where I gained hands-on experience in <b>Python development</b>. During this 45-day period, I focused on enhancing my programming skills, understanding core Python concepts, and working on real-world projects. I learned essential topics such as <b>data structures, algorithms, and object-oriented programming</b>. This experience helped me develop a strong foundation in Python and improve my problem-solving abilities. Additionally, I worked on practical applications, which deepened my understanding of coding best practices and debugging techniques. This internship played a crucial role in strengthening my programming expertise and preparing me for future development projects.</p>
+        </div>
+        <div class="internship">
+            <h3>Python Full Stack Developer (Training)</h3>
+            <p>I started my training at <b>QSpiders Training Institute, Noida</b> in <b>January 2025</b>, focusing on <b>Full-Stack Development</b> and <b>Data Analytics</b>. This training will be completed by <b>July 2025</b> and has been instrumental in enhancing my technical skills. During this period, I have learned essential technologies, including <b>HTML, CSS, JavaScript, Python, Django, SQL, and Power BI</b>. These skills have helped me build a strong foundation in web development, backend technologies, and data analysis. The training provides practical exposure to real-world projects, reinforcing my understanding of application development and data visualization. This experience is playing a crucial role in shaping my technical expertise for future career opportunities.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: mirzaumar089@gmail.com</p>
+        <p>Phone: +91 9086926363</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/umar-farooq-mirza" target="_blank">linkedin.com/in/umar-farooq-mirza</a></p>
+        <p>GitHub: <a href="https://github.com/UmarFarooqMirza" target="_blank">github.com/UmarFarooqMirza</a></p>
+    </section>
+    
+    <footer>
+        <div id="year"></div>
+        <p>&copy; <span id="year"></span> Umar Farooq Mirza. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
